@@ -6,35 +6,93 @@
     padding: 0;
     color: #2e2e2e;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    grid-template-rows: 50% 12% 12% 26%;
+    padding: 15% 0;
+
+    text-align: center;
     align-items: center;
 }
 
-.left {
-    width: 25%;
+.hi-text, .im-a-text, .aswellas-text {
     text-align: right;
-    font-size: 22pt;
+    align-self: end;
+    font-size: 20pt;
+    padding-bottom: 5px;
 }
 
-.center {
-    width: 45%;
-    text-align: center;
-    padding-bottom: 25px;
+.hi-text {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    animation: appearFromLeft 0.7s ease-out forwards;
 }
 
-.center h1 {
+.im-a-text {
+    grid-column: 1;
+    grid-row: 2;
+    animation: appearFromLeft 0.7s ease-out forwards;
+}
+
+.aswellas-text {
+    grid-column: 1;
+    grid-row: 3;
+    animation: appearFromLeft 0.7s ease-out forwards;
+}
+
+.filip-grujic-text {
     font-size: 70pt;
-    margin-bottom: 70px;
+    align-self: center;
+    animation: appearFromBottom 0.7s ease-out forwards;
 }
 
-.center h2 {
-    font-size: 32pt;
+.software-engineer-text {
+    grid-column: 2;
+    grid-row: 2;
+
+    font-size: 30pt;
+    align-self: end;
+    animation: appearFromBottom 0.7s ease-out forwards;
 }
 
-.right {
-    width: 30%;
+.web-developer-text {
+    grid-column: 2;
+    grid-row: 3;
+
+    font-size: 30pt;
+    align-self: end;
+    animation: appearFromBottom 0.7s ease-out forwards;
 }
 
-.right img {
-    max-width: 75%;
+.hero img {
+    width: 70%;
+    align-self: center;
+    grid-column: 3;
+    grid-row: 1/4;
+
+    transform: translateY(200px);
+    animation: appearFromBottom 0.7s ease-out forwards;
+}
+
+@keyframes appearFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

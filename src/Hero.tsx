@@ -11,7 +11,7 @@ function Hero() {
             <h2 className="software-engineer-text">Software Engineer</h2>
             <h2 className="web-developer-text">Web Developer</h2>
 
-            <img src={"/src/assets/filip.png"} />
+            <img src={"/filip.png"} />
         </div>
     );
 }

@@ -1,3 +1,5 @@
+import './Lang.css'
+
 interface LangProps {
     className: string
     name: string
@@ -11,12 +13,12 @@ function Lang(data: LangProps) {
     return (
         <div className={data.className}>
 
-            {data.name}
-            {data.score}/5
-            {data.description}
+            {data.name}<br />
+            {data.score}/5<br />
+            {data.description}<br />
             {data.technologies}
 
-            <img src={data.icon} />
+            {/*<img src={data.icon} />*/}
 
         </div>
     );

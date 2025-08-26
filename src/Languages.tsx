@@ -2,6 +2,7 @@ import './Languages.css';
 import Lang from './Lang.tsx';
 
 function Languages() {
+
     let descriptions = {
         'C#': 'Test C#',
         'Python': 'Test Python',
@@ -12,11 +13,11 @@ function Languages() {
 
     return (
         <div id="languages">
-            <h2>Technologies I use:</h2>
+            <h1 className="technologies-title">Technologies I use</h1>
 
             <div className="languages">
                 <Lang
-                    className="csharp"
+                    className="lang csharp"
                     name="C#"
                     score={4.5}
                     description={descriptions['C#']}
@@ -24,7 +25,7 @@ function Languages() {
                     icon='/csharp-icon.png'
                 />
                 <Lang
-                    className="python"
+                    className="lang python"
                     name="Python"
                     score={4.5}
                     description={descriptions['Python']}
@@ -32,7 +33,7 @@ function Languages() {
                     icon='/python-icon.png'
                 />
                 <Lang
-                    className="html"
+                    className="lang html"
                     name="HTML & CSS"
                     score={4}
                     description={descriptions['HTML']}
@@ -40,20 +41,12 @@ function Languages() {
                     icon='/html-icon.png'
                 />
                 <Lang
-                    className="javascript"
+                    className="lang javascript"
                     name="JavaScript"
                     score={3.5}
                     description={descriptions['JavaScript']}
                     technologies={['React']}
                     icon='/javascript-icon.png'
-                />
-                <Lang
-                    className="mysql"
-                    name="MySQL"
-                    score={3}
-                    description={descriptions['MySQL']}
-                    technologies={[]}
-                    icon='/mysql-icon.png'
                 />
             </div>
         </div>

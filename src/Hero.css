@@ -1,4 +1,4 @@
-.hero {
+#hero {
     background-color: #ffde59;
     width: 100vw;
     height: 100vh;
@@ -65,7 +65,7 @@
     animation: appearFromBottom 0.7s ease-out forwards;
 }
 
-.hero img {
+#hero img {
     width: 70%;
     align-self: center;
     grid-column: 3;

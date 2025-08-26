@@ -2,7 +2,7 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <div className="hero">
+        <div id="hero">
             <p className="hi-text">Hi, my name is</p>
             <p className="im-a-text">I am a</p>
             <p className="aswellas-text">as well as a</p>

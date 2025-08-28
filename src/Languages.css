@@ -5,10 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .technologies-title {
-    color: #ffde59;
+    color: var(--yellow);
     margin-bottom: 75px;
 }
 
@@ -24,7 +25,6 @@
 .csharp {
     width: 100%;
     height: 100%;
-    background-color: purple;
     z-index: 0;
     transition: transform 0.7s ease;
     transform: translate(0, 0) scale(1);
@@ -42,7 +42,6 @@
 .python {
     width: 100%;
     height: 100%;
-    background-color: blue;
     z-index: 0;
     transition: transform 0.7s ease;
     transform: translate(0, 0) scale(1);
@@ -60,7 +59,6 @@
 .javascript {
     width: 100%;
     height: 100%;
-    background-color: yellow;
     z-index: 0;
     transition: transform 0.7s ease;
     transform: translate(0, 0) scale(1);
@@ -78,7 +76,6 @@
 .html {
     width: 100%;
     height: 100%;
-    background-color: orange;
     z-index: 0;
     transition: transform 0.7s ease;
     transform: translate(0, 0) scale(1);

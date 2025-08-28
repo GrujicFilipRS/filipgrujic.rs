@@ -11,14 +11,9 @@ interface LangProps {
 
 function Lang(data: LangProps) {
     return (
-        <div className={data.className}>
+        <div className={`lang ${data.className}`}>
 
-            {data.name}<br />
-            {data.score}/5<br />
-            {data.description}<br />
-            {data.technologies}
-
-            {/*<img src={data.icon} />*/}
+            {<img src={data.icon} className={`lang-icon ${data.className}-icon`} />}
 
         </div>
     );

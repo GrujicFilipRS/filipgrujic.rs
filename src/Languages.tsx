@@ -7,9 +7,8 @@ function Languages() {
         'C#': 'Test C#',
         'Python': 'Test Python',
         'HTML': 'Test HTML',
-        'JavaScript': 'Test JavaScript',
-        'MySQL': 'Test MySQL'
-    };
+        'JavaScript': 'Test JavaScript'
+    }; 
 
     return (
         <div id="languages">
@@ -17,7 +16,7 @@ function Languages() {
 
             <div className="languages">
                 <Lang
-                    className="lang csharp"
+                    className="csharp"
                     name="C#"
                     score={4.5}
                     description={descriptions['C#']}
@@ -25,27 +24,27 @@ function Languages() {
                     icon='/csharp-icon.png'
                 />
                 <Lang
-                    className="lang python"
+                    className="python"
                     name="Python"
                     score={4.5}
                     description={descriptions['Python']}
-                    technologies={['Flask']}
+                    technologies={['Flask', 'TKinter', 'Pygame']}
                     icon='/python-icon.png'
                 />
                 <Lang
-                    className="lang html"
+                    className="html"
                     name="HTML & CSS"
                     score={4}
                     description={descriptions['HTML']}
-                    technologies={[]}
+                    technologies={['Cascading Style Sheets']}
                     icon='/html-icon.png'
                 />
                 <Lang
-                    className="lang javascript"
+                    className="javascript"
                     name="JavaScript"
                     score={3.5}
                     description={descriptions['JavaScript']}
-                    technologies={['React']}
+                    technologies={['React', 'SignalR for JS']}
                     icon='/javascript-icon.png'
                 />
             </div>

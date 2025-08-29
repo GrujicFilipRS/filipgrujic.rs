@@ -1,0 +1,13 @@
+.xp-item {
+    border: 1px solid white;
+    font-size: 8pt;
+    padding: 1px 5px;
+}
+
+.xp-item-left {
+    margin-right: 12px;
+}
+
+.xp-item-right {
+    margin-left: 12px;
+}

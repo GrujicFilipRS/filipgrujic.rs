@@ -1,0 +1,5 @@
+.separator {
+    width: 80vw;
+    border-bottom: 1px solid var(--dark-yellow);
+    align-self: center;
+}

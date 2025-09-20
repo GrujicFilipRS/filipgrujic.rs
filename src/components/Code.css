@@ -1,0 +1,39 @@
+.code {
+    background-color: var(--dark-blue);
+    width: 450px;
+    height: 250px;
+
+    border-radius: 10px;
+}
+
+.code-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0px 10px;
+
+    border-bottom: var(--blue) 1px solid;
+    align-items: center;
+}
+
+.code-options {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.code-options button {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+
+    font-weight: 700;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.code-options .code-unactive {
+    color: var(--not-highlighted);
+}

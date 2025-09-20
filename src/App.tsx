@@ -1,29 +1,15 @@
-import './App.css'
-import Hero from './Hero.tsx'
-import Languages from './Languages.tsx'
-import { useEffect } from 'react';
+import Hero from './sections/Hero';
+import Separator from './components/Separator';
+
+import './App.css';
 
 function App() {
-  useEffect(() => {
-    const updateScrollbarWidth = () => {
-      const scrollbarWidth =
-        window.innerWidth - document.documentElement.clientWidth;
-      document.documentElement.style.setProperty(
-        "--scrollbar-width",
-        `${scrollbarWidth}px`
-      );
-    };
-    updateScrollbarWidth();
-    window.addEventListener("resize", updateScrollbarWidth);
-    return () => window.removeEventListener("resize", updateScrollbarWidth);
-  }, []);
-
-  return (
-    <>
-      <Hero/>
-      <Languages/>
-    </>
-  )
+    return (
+        <div id="app">
+            <Hero />
+            <Separator />
+        </div>
+    );
 }
 
-export default App
+export default App;

@@ -1,16 +1,24 @@
 :root {
-    --yellow: #FFDE59;
-    --darkgrey: #2E2E2E;
-    --lightgrey: #454545;
+    --dark: #000814;
+    --dark-blue: #001D3D;
+    --blue: #003566;
+    --dark-yellow: #FFC300;
+    --yellow: #FFD60A;
+    --not-highlighted: #3B5D83;
+    --white: #FFFFFF;
 }
 
 * {
+    font-family: "Titillium Web", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    background-color: var(--dark);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
 }

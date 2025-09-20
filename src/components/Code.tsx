@@ -1,17 +1,17 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './Code.css';
 
 function Code() {
-    const [lang, setLang] = useState<'py' | 'cs' | 'ts'>(() => {
+    // const [lang, setLang] = useState<'py' | 'cs' | 'ts'>(() => {
 
-        const stored = localStorage.getItem('code-lang');
+    //     const stored = localStorage.getItem('code-lang');
 
-        if (stored === 'py' || stored === 'cs' || stored === 'ts') {
-            return stored;
-        }
+    //     if (stored === 'py' || stored === 'cs' || stored === 'ts') {
+    //         return stored;
+    //     }
 
-        return 'py';
-    });
+    //     return 'py';
+    // });
 
     return (
         <div className="code">

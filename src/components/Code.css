@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "Consolas";
+    src: url("/Consolas-Regular.ttf") format("truetype");
+}
+
 .code {
     background-color: var(--dark-blue);
-    width: 450px;
+    width: 480px;
     height: 250px;
 
     border-radius: 10px;
@@ -19,10 +24,15 @@
 .code-options {
     display: flex;
     gap: 10px;
-    margin-left: 10px;
+    height: 100%;
+    align-items: center;
 }
 
-.code-options button {
+.code-options .code-inactive {
+    color: var(--not-highlighted);
+}
+
+.code-option {
     background-color: rgba(0,0,0,0);
     border: 0;
 
@@ -31,9 +41,88 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 5px;
     width: 100%;
+    height: 100%;
+    font-size: 9pt;
+    margin-right: 10px;
+
+    transition: 0.2s;
 }
 
-.code-options .code-unactive {
-    color: var(--not-highlighted);
+.code-option:hover {
+    cursor: pointer;
+}
+
+.code-option img {
+    height: 18px;
+}
+
+.code-text {
+    height: calc(100% - 30px);
+    display: flex;
+    gap: 10px;
+}
+
+.actual-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96%;
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
+.actual-code p {    
+    color: var(--white);
+    font-size: 18pt;
+    font-family: 'Consolas';
+}
+
+.code-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 30px;
+    height: 96%;
+}
+
+.code-lines p {
+    color: var(--blue);
+    font-family: 'Consolas';
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.red-code {
+    color: #EF5252;
+    font-family: 'Consolas';
+    font-size: 18pt;
+}
+
+.green-code {
+    color: #28D32D;
+    font-family: 'Consolas';
+    font-size: 18pt;
+}
+
+.orange-code {
+    color: #FF9E2F;
+    font-family: 'Consolas';
+    font-size: 18pt;
+}
+
+.yellow-code {
+    color: #FFD60A;
+    font-family: 'Consolas';
+    font-size: 18pt;
+}
+
+.cyan-code {
+    color: #31F8FF;
+    font-family: 'Consolas';
+    font-size: 18pt;
 }

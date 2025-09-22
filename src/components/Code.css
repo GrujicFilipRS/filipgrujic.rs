@@ -74,10 +74,12 @@
     tab-size: 4;
 }
 
-.actual-code p {    
+.actual-code p {
+    margin-bottom: 7px;
     color: var(--white);
-    font-size: 13pt;
+    font-size: 18pt;
     font-family: 'Consolas';
+    line-height: 1;
 }
 
 .code-lines {

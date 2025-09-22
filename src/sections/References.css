@@ -1,0 +1,10 @@
+#references {
+    width: 80%;
+    margin-top: 50px;
+}
+
+#references h1 {
+    color: var(--yellow);
+    font-size: 32pt;
+    margin-bottom: 30px;
+}

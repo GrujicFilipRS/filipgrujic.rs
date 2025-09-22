@@ -31,8 +31,10 @@ function Project(data: ProjectProps) {
                 </div>
 
                 <div className="project-links">
-                    { data.deploymentLink && <a href={data.deploymentLink!}>Deployment</a> }
-                    <a href={data.githubLink}><img className='github-icon' src="/github-icon.png" alt="Github" /></a>
+                    { data.deploymentLink && <a href={data.deploymentLink!} target='_blank'>Deployment</a> }
+                    <a href={data.githubLink} target='_blank'>
+                        <img className='github-icon' src="/github-icon.png" alt="Github" />
+                    </a>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ function Projects() {
                     name='Algorithm visualizer'
                     projectType='Solo project'
                     iconLink='/algorithm-icon.png'
-                    description='A desktop application for visualizing common computer science algorithms'
+                    description='A desktop application for visualizing common computer science algorithms.'
                     githubLink='https://github.com/GrujicFilipRS/algorithm-visualizer'
                     technologies={['Pygame', 'Custom TKinter']}
                 />
@@ -29,7 +29,7 @@ function Projects() {
                     name='Bill splitter'
                     projectType='Team hackathon submission'
                     iconLink='/bill-icon.png'
-                    description='A web and android application that allows users to automatically calculate cost of a split bill'
+                    description='A web and android application that allows users to automatically split a shared bill. For roommates, friend groups, travel groups, etc.'
                     githubLink='https://github.com/GrujicFilipRS/splitsmart'
                     technologies={['React', 'Flask']}
                 />

@@ -1,0 +1,51 @@
+.reference {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    gap: 100px;
+}
+
+.lside-reference {
+    width: 400px;
+}
+
+.name-image-pair {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name-image-pair a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+.name-image-pair img {
+    height: 25px;
+    border-radius: 50px;
+}
+
+.lside-reference p {
+    max-width: 85%;
+}
+
+.job-title {
+    color: var(--dark-yellow);
+    font-size: 12pt;
+}
+
+.rside-reference {
+    width: 40%;
+}
+
+.reference-desc {
+    color: var(--white);
+    font-style: italic;
+    font-size: 16pt;
+}
+
+.extra-margin-reference {
+    margin-bottom: 50px;
+}

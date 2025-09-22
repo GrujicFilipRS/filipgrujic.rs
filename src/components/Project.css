@@ -1,0 +1,58 @@
+.project {
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 355px;
+}
+
+.project h2 {
+    color: var(--yellow);
+    font-size: 24pt;
+}
+
+.project-type {
+    color: var(--dark-yellow);
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.bottom-row {
+    display: flex;
+    color: var(--not-highlighted);
+    justify-content: space-between;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.technologies {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12pt;
+}
+
+.tech {
+    background-color: var(--blue);
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 3px 7px;
+}
+
+.github-icon {
+    height: 25px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-row img {
+    height: 20px;
+}

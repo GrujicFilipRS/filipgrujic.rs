@@ -1,0 +1,17 @@
+#projects {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#projects h1 {
+    color: var(--yellow);
+    font-size: 32pt;
+    margin-bottom: 30px;
+}
+
+.projects-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

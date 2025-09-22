@@ -76,7 +76,7 @@
 
 .actual-code p {    
     color: var(--white);
-    font-size: 18pt;
+    font-size: 13pt;
     font-family: 'Consolas';
 }
 
@@ -123,6 +123,12 @@
 
 .cyan-code {
     color: #31F8FF;
+    font-family: 'Consolas';
+    font-size: 18pt;
+}
+
+.white-code {
+    color: var(--white);
     font-family: 'Consolas';
     font-size: 18pt;
 }

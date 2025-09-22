@@ -79,7 +79,7 @@
     color: var(--white);
     font-size: 18pt;
     font-family: 'Consolas';
-    line-height: 1;
+    line-height: 1.05;
 }
 
 .code-lines {

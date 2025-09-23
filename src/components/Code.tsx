@@ -49,9 +49,6 @@ function Code() {
             </div>
 
             <div className="code-text">
-                <div className="code-lines">
-                    {[1, 2, 3, 4, 5, 6, 7].map((val, _) => ( <p key={val}>{val}</p> ))}
-                </div>
                 <div className="actual-code">
                     { lang === 'py' && <p><span className='red-code'>def</span> <span className='green-code'>greet_user</span><span className='white-code'>(</span><span className='orange-code'>name</span><span className="white-code">:</span> <span className='cyan-code'>str</span><span className='white-code'>)</span><span className="white-code">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='green-code'>print</span><span className="white-code">(</span><span className='red-code'>f</span><span className='yellow-code'>'Hi, I am </span><span className='red-code'>{'{'}</span><span className='orange-code'>{'name'}</span><span className='red-code'>{'}'}</span><span className='yellow-code'>'</span><span className="white-code">)</span><br /><br /><span className='orange-code'>my_name</span><span className="white-code">:</span> <span className='cyan-code'>str</span> <span className="white-code">=</span> <span className='yellow-code'>'Filip'</span><br /><br /><span className='red-code'>if</span> <span className='cyan-code'>__name__</span> <span className="white-code">==</span> <span className='yellow-code'>'__main__'</span><span className="white-code">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='green-code'>greet_user</span><span className="white-code">(</span><span className='orange-code'>my_name</span><span className="white-code">)</span></p>}
 

@@ -12,7 +12,7 @@ function Projects() {
                     projectType='Team hackathon submission'
                     iconLink='/book-icon.png'
                     description='A web application that allows students to access and read books from the Serbian school curriculum.'
-                    githubLink='https://github.com/GrujicFilipRS/online-biblioteka'
+                    githubLink='https://github.com/Ronkly/online-biblioteka'
                     technologies={['Flask', 'HTML']}
                 />
 

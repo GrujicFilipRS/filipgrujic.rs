@@ -1,0 +1,32 @@
+#other {
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#other h1 {
+    color: var(--yellow);
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-size: 32pt;
+}
+
+#other h2 {
+    color: var(--dark-yellow);
+}
+
+.other-data {
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    width: 70%;
+    align-self: center;
+    margin-bottom: 250px;
+}
+
+.cv a {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}

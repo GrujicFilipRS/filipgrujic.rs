@@ -1,6 +1,7 @@
 import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 import References from './sections/References';
+import Other from './sections/Other';
 
 import Separator from './components/Separator';
 
@@ -15,6 +16,7 @@ function App() {
             <Separator />
             <References />
             <Separator />
+            <Other />
         </div>
     );
 }

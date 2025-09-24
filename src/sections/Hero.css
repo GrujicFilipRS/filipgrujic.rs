@@ -4,6 +4,7 @@
     align-items: center;
     min-height: 90dvh;
     gap: 50px;
+    width: 100%;
 }
 
 .lside-hero p {
@@ -25,4 +26,16 @@
 
 .lside-hero p {
     font-size: 18pt;
+}
+
+@media (max-width: 1000px) {
+    #hero {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .lside-hero {
+        text-align: center;
+    }
 }

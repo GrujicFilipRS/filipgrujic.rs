@@ -44,8 +44,6 @@ function Code() {
                         <p>app.tsx</p>
                     </button>
                 </div>
-
-                <div className="code-exit">X</div>
             </div>
 
             <div className="code-text">

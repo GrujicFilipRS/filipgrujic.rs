@@ -8,6 +8,9 @@ import Separator from './components/Separator';
 import './App.css';
 
 function App() {
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
+
     return (
         <div id="app">
             <Hero />

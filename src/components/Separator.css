@@ -3,3 +3,9 @@
     border-bottom: 1px solid var(--dark-yellow);
     align-self: center;
 }
+
+@media (max-width: 625px) {
+    .separator {
+        width: 90vw;
+    }
+}

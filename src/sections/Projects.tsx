@@ -22,7 +22,7 @@ function Projects() {
                     iconLink='/algorithm-icon.png'
                     description='A desktop application for visualizing common computer science algorithms.'
                     githubLink='https://github.com/GrujicFilipRS/algorithm-visualizer'
-                    technologies={['Pygame', 'Custom TKinter']}
+                    technologies={['Pygame', 'CTK']}
                 />
                 
                 <Project

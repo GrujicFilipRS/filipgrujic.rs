@@ -3,7 +3,7 @@
     border-radius: 10px;
     padding: 10px 20px;
     max-width: 355px;
-    height: 210px;
+    min-height: 210px;
     display: flex;
     flex-direction: column;
 }
@@ -59,4 +59,53 @@
 
 .top-row img {
     height: 20px;
+}
+
+@media (max-width: 1285px) {
+    .project {
+        width: 40%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .project {
+        width: 100%;
+    }
+
+    .project-desc {
+        width: 70%;
+    }
+}
+
+@media (max-width: 630px) {
+    .project-desc {
+        width: 80%;
+    }
+}
+
+@media (max-width: 470px) {
+    .project {
+        min-height: 190px;
+    }
+    
+    .project h2 {
+        font-size: 22pt;
+    }
+
+    .project-desc {
+        width: 95%;
+    }
+}
+
+@media (max-width: 425px) {
+
+
+    .project {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
 }

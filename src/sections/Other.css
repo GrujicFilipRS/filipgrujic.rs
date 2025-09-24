@@ -23,7 +23,7 @@
     justify-content: space-between;
     width: 70%;
     align-self: center;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .cv a {
@@ -64,4 +64,41 @@
 
 .education b {
     font-size: 14pt;
+}
+
+@media (max-width: 1270px) {
+    .other-data {
+        width: 90%;
+        gap: 0;
+        justify-content: space-between;
+    }   
+}
+
+@media (max-width: 810px) {
+    .other-data {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 625px) {
+    #other h1 {
+        text-align: center;
+    }
+
+    #other {
+        width: 90%;
+    }
+
+    .other-data {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact a {
+        font-size: 12pt;
+    }
 }

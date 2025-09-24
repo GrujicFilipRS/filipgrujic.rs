@@ -10,13 +10,8 @@ function Other() {
                     <h2>Socials & Contact</h2>
 
                     <div className="contact">
-                        <img src="/github.png" alt="Github" />
+                        <img src="/github-icon.png" alt="Github" />
                         <a href='https://www.github.com/GrujicFilipRS/' target='_blank'>GrujicFilipRS</a>
-                    </div>
-
-                    <div className="contact">
-                        <img src="/insta.png" alt="Instagram" />
-                        <a href='https://www.instagram.com/filipgrujicbusiness/' target='_blank'>@filipgrujicbusiness</a>
                     </div>
 
                     <div className="contact">
@@ -25,7 +20,12 @@ function Other() {
                     </div>
 
                     <div className="contact">
-                        <img src="/email.png" alt="E-Mail" />
+                        <img src="/insta.png" alt="Instagram" />
+                        <a href='https://www.instagram.com/filipgrujicbusiness/' target='_blank'>@filipgrujicbusiness</a>
+                    </div>
+
+                    <div className="contact">
+                        <img src="/mail.png" alt="E-Mail" />
                         <a href='mailto:filipgrujicbusiness@gmail.com' target='_blank'>filipgrujicbusiness@gmail.com</a>
                     </div>
                 </div>

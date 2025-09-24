@@ -14,7 +14,7 @@ function Project(data: ProjectProps) {
     return (
         <div className="project">
             <div className="top-row">
-                <h2>{ data.name }</h2>
+                <h2><a href={data.githubLink} target='_blank'>{ data.name }</a></h2>
                 <img src={ data.iconLink } />
             </div>
             <p className='project-type'>{ data.projectType }</p>

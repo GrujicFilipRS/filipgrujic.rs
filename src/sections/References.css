@@ -8,3 +8,9 @@
     font-size: 32pt;
     margin-bottom: 30px;
 }
+
+@media (max-width: 625px) {
+    #references {
+        width: 90%;
+    }
+}

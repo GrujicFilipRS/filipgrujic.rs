@@ -39,3 +39,21 @@
         text-align: center;
     }
 }
+
+@media (max-width: 410px) {
+    #hero h1 {
+        font-size: 48pt;
+    }
+}
+
+@media (max-width: 375px) {
+    #hero h1 {
+        font-size: 44pt;
+    }
+}
+
+@media (max-width: 345px) {
+    #hero h1 {
+        font-size: 40pt;
+    }
+}

@@ -8,6 +8,10 @@
     flex-direction: column;
 }
 
+.project-dev {
+    border: 1px solid var(--dark-yellow);
+}
+
 .project h2 {
     font-size: 24pt;
 }

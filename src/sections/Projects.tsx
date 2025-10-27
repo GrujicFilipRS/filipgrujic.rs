@@ -8,6 +8,27 @@ function Projects() {
             <h1>PROJECTS</h1>
             <div className="projects-list">
                 <Project
+                    name='Social network'
+                    projectType='Solo project'
+                    iconLink='/social-icon.png'
+                    description='A social media web application, similar to Instagram, designed for sharing photos, posts, and user interactions in real time.'
+                    githubLink='https://github.com/GrujicFilipRS/social-network'
+                    deploymentLink='https://network.filipgrujic.rs/'
+                    technologies={['FastAPI', 'Vue.js']}
+                    inDevelopment={true}
+                />
+                
+                <Project
+                    name='Bill splitter'
+                    projectType='Team hackathon submission'
+                    iconLink='/bill-icon.png'
+                    description='A web and android application that allows users to automatically split a shared bill. For roommates, friend groups, travel groups, etc.'
+                    githubLink='https://github.com/GrujicFilipRS/splitsmart'
+                    technologies={['React', 'Flask']}
+                    inDevelopment={true}
+                />
+
+                <Project
                     name='Online library'
                     projectType='Team hackathon submission'
                     iconLink='/book-icon.png'
@@ -23,15 +44,6 @@ function Projects() {
                     description='A desktop application for visualizing common computer science algorithms.'
                     githubLink='https://github.com/GrujicFilipRS/algorithm-visualizer'
                     technologies={['Pygame', 'CTK']}
-                />
-                
-                <Project
-                    name='Bill splitter'
-                    projectType='Team hackathon submission'
-                    iconLink='/bill-icon.png'
-                    description='A web and android application that allows users to automatically split a shared bill. For roommates, friend groups, travel groups, etc.'
-                    githubLink='https://github.com/GrujicFilipRS/splitsmart'
-                    technologies={['React', 'Flask']}
                 />
             </div>
         </div>

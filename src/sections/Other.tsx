@@ -16,7 +16,7 @@ function Other() {
 
                     <div className="contact">
                         <img src="/linkedin.png" alt="LinkedIn" />
-                        <a href='https://www.linkedin.com/in/filip-gruji%C4%87-36a3b72ab/' target='_blank'>filip-grujić-36a3b72ab</a>
+                        <a href='https://www.linkedin.com/in/GrujicFilipRS' target='_blank'>GrujicFilipRS</a>
                     </div>
 
                     <div className="contact">

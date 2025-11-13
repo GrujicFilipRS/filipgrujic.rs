@@ -45,6 +45,15 @@ function Projects() {
                     githubLink='https://github.com/GrujicFilipRS/algorithm-visualizer'
                     technologies={['Pygame', 'CTK']}
                 />
+
+                <Project
+                    name='Banking system'
+                    projectType='School project'
+                    iconLink='/accounting-icon.png'
+                    description='A desktop application for managing a personal checkings and a savings account.'
+                    githubLink='https://github.com/GrujicFilipRS/accounting'
+                    technologies={['.Net', 'MySQL']}
+                />
             </div>
         </div>
     );

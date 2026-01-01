@@ -13,7 +13,7 @@ function Projects() {
                     iconLink='/social-icon.png'
                     description='A social media web application, similar to Instagram, designed for sharing photos, posts, and user interactions in real time.'
                     githubLink='https://github.com/GrujicFilipRS/social-network'
-                    deploymentLink='https://network.filipgrujic.rs/'
+                    deploymentLink='https://social.filipgrujic.rs/'
                     technologies={['FastAPI', 'Vue.js']}
                     inDevelopment={true}
                 />
@@ -24,7 +24,8 @@ function Projects() {
                     iconLink='/bill-icon.png'
                     description='A web and android application that allows users to automatically split a shared bill. For roommates, friend groups, travel groups, etc.'
                     githubLink='https://github.com/GrujicFilipRS/splitsmart'
-                    technologies={['React', 'Flask']}
+                    deploymentLink='https://splitsmart.filipgrujic.rs/'
+                    technologies={['React', 'Flask', 'FastAPI']}
                     inDevelopment={true}
                 />
 

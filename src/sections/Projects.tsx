@@ -8,17 +8,6 @@ function Projects() {
             <h1>PROJECTS</h1>
             <div className="projects-list">
                 <Project
-                    name='Social network'
-                    projectType='Solo project'
-                    iconLink='/social-icon.png'
-                    description='A social media web application, similar to Instagram, designed for sharing photos, posts, and user interactions in real time.'
-                    githubLink='https://github.com/GrujicFilipRS/social-network'
-                    deploymentLink='https://social.filipgrujic.rs/'
-                    technologies={['FastAPI', 'Vue.js']}
-                    inDevelopment={true}
-                />
-                
-                <Project
                     name='Bill splitter'
                     projectType='Team hackathon submission'
                     iconLink='/bill-icon.png'
@@ -27,6 +16,28 @@ function Projects() {
                     deploymentLink='https://splitsmart.filipgrujic.rs/'
                     technologies={['React', 'Flask', 'FastAPI']}
                     inDevelopment={true}
+                    important={true}
+                />
+
+                <Project
+                    name='Social network'
+                    projectType='Solo project'
+                    iconLink='/social-icon.png'
+                    description='A social media web application, similar to Instagram, designed for sharing photos, posts, and user interactions in real time.'
+                    githubLink='https://github.com/GrujicFilipRS/social-network'
+                    deploymentLink='https://social.filipgrujic.rs/'
+                    technologies={['FastAPI', 'Vue.js']}
+                    inDevelopment={true}
+                    important={true}
+                />
+
+                <Project
+                    name='Macro tracker'
+                    projectType='Solo project'
+                    iconLink='/macro-icon.png'
+                    description='A mobile application that helps users track their daily macronutrient intake and manage their diet effectively.'
+                    githubLink='https://github.com/GrujicFilipRS/macro-tracker'
+                    technologies={['FastAPI', 'Vue.js']}
                 />
 
                 <Project

@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.project-dev {
+.project-important {
     border: 1px solid var(--dark-yellow);
 }
 

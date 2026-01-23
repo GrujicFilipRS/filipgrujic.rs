@@ -9,10 +9,11 @@ interface ProjectProps {
     deploymentLink?: string;
     technologies: string[];
     inDevelopment?: boolean;
+    important?: boolean;
 }
 
 function Project(data: ProjectProps) {
-    const className = data.inDevelopment ? 'project project-dev' : 'project';
+    const className = data.important ? 'project project-important' : 'project';
     const projectType = data.inDevelopment ?
         `${data.projectType} · In development`
         : data.projectType;

@@ -33,10 +33,11 @@ function Projects() {
 
                 <Project
                     name='Macro tracker'
-                    projectType='Solo project'
+                    projectType='School project'
                     iconLink='/macro-icon.png'
-                    description='A web application that helps users track their daily macronutrient intake and manage their diet effectively.'
+                    description='A web application that helps users track their daily macronutrient intake and manage their diet effectively'
                     githubLink='https://github.com/GrujicFilipRS/macro-tracker'
+                    deploymentLink='https://macros.filipgrujic.rs/'
                     technologies={['FastAPI', 'Vue.js']}
                 />
 

@@ -35,7 +35,7 @@ function Projects() {
                     name='Macro tracker'
                     projectType='Solo project'
                     iconLink='/macro-icon.png'
-                    description='A mobile application that helps users track their daily macronutrient intake and manage their diet effectively.'
+                    description='A web application that helps users track their daily macronutrient intake and manage their diet effectively.'
                     githubLink='https://github.com/GrujicFilipRS/macro-tracker'
                     technologies={['FastAPI', 'Vue.js']}
                 />

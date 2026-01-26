@@ -1,5 +1,6 @@
 import Hero from './sections/Hero';
 import Projects from './sections/Projects';
+import Experiences from './sections/Experiences';
 import References from './sections/References';
 import Other from './sections/Other';
 
@@ -16,6 +17,8 @@ function App() {
             <Hero />
             <Separator />
             <Projects />
+            <Separator />
+            <Experiences />
             <Separator />
             <References />
             <Separator />

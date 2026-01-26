@@ -28,12 +28,16 @@
 
 .project-type {
     color: var(--dark-yellow);
-    margin-bottom: 10px;
+}
+
+.project-timestamp {
+    color: var(--not-highlighted);
 }
 
 .project-desc {
     color: var(--white);
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .bottom-row {

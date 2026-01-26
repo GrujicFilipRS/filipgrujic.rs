@@ -1,0 +1,28 @@
+#experiences {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#experiences h1 {
+    color: var(--yellow);
+    font-size: 32pt;
+    margin-bottom: 30px;
+}
+
+.experience-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 670px) {
+    #experiences h1 {
+        text-align: center;
+        font-size: 28pt;
+    }
+
+    #experiences {
+        width: 90%;
+    }
+}

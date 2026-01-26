@@ -10,6 +10,8 @@ interface ProjectProps {
     technologies: string[];
     inDevelopment?: boolean;
     important?: boolean;
+    includeGithubIcon?: boolean;
+    timestamp?: string;
 }
 
 function Project(data: ProjectProps) {
@@ -18,6 +20,7 @@ function Project(data: ProjectProps) {
         `${data.projectType} · In development`
         : data.projectType;
     const titleLink = data.deploymentLink ? data.deploymentLink : data.githubLink;
+    const includeGithubIcon = data.includeGithubIcon ?? true;
 
     return (
         <div className={className}>
@@ -26,6 +29,7 @@ function Project(data: ProjectProps) {
                 <img src={ data.iconLink } />
             </div>
             <p className='project-type'>{ projectType }</p>
+            { data.timestamp && <p className='project-timestamp'>{ data.timestamp }</p> }
             <p className='project-desc'>{ data.description }</p>
 
             <div className="bottom-row">
@@ -39,9 +43,13 @@ function Project(data: ProjectProps) {
                 </div>
 
                 <div className="project-links">
-                    <a href={data.githubLink} target='_blank'>
-                        <img className='github-icon' src="/github-icon.png" alt="Github" />
-                    </a>
+                    {
+                        includeGithubIcon &&
+                        <a href={data.githubLink} target='_blank'>
+                            <img className='github-icon' src="/github-icon.png" alt="Github" />
+                        </a>
+                    }
+                    
                 </div>
             </div>
         </div>

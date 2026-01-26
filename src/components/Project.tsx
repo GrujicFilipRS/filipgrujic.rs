@@ -12,6 +12,7 @@ interface ProjectProps {
     important?: boolean;
     includeGithubIcon?: boolean;
     timestamp?: string;
+    customMadeWithText?: string;
 }
 
 function Project(data: ProjectProps) {
@@ -34,7 +35,7 @@ function Project(data: ProjectProps) {
 
             <div className="bottom-row">
                 <div className="technologies">
-                    <p>Made with:</p>
+                    <p>{ data.customMadeWithText ?? 'Made with:' }</p>
                     { data.technologies.map((tech, _) => (
                         <div key={ tech } className="tech">
                             { tech }

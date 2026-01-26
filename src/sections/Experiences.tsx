@@ -17,6 +17,7 @@ function Experiences() {
                     githubLink='https://www.fourity.com/'
                     technologies={['React', 'PHP']}
                     includeGithubIcon={false}
+                    customMadeWithText='Used:'
                 />
             </div>
         </div>

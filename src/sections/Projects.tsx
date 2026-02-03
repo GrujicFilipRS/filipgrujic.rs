@@ -13,7 +13,6 @@ function Projects() {
                     iconLink='/bill-icon.png'
                     description='A web and android application that allows users to automatically split a shared bill. For roommates, friend groups, travel groups, etc.'
                     githubLink='https://github.com/GrujicFilipRS/splitsmart'
-                    deploymentLink='https://splitsmart.filipgrujic.rs/'
                     technologies={['React', 'Flask', 'FastAPI']}
                     deploymentLink='https://splitsmart.filipgrujic.rs/'
                     important={true}

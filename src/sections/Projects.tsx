@@ -15,7 +15,7 @@ function Projects() {
                     githubLink='https://github.com/GrujicFilipRS/splitsmart'
                     deploymentLink='https://splitsmart.filipgrujic.rs/'
                     technologies={['React', 'Flask', 'FastAPI']}
-                    inDevelopment={true}
+                    deploymentLink='https://splitsmart.filipgrujic.rs/'
                     important={true}
                 />
 

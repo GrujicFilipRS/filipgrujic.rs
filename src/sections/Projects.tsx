@@ -24,6 +24,7 @@ function Projects() {
                     iconLink='/social-icon.png'
                     description='A social media web application, similar to Instagram, designed for sharing photos, posts, and user interactions in real time.'
                     githubLink='https://github.com/GrujicFilipRS/social-network'
+                    deploymentLink='https://social.filipgrujic.rs/'
                     technologies={['FastAPI', 'Vue.js']}
                     inDevelopment={true}
                     important={true}
